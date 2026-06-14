@@ -5,5 +5,6 @@
   "version": 1,
   "shell-version": ["45", "46", "47", "48", "49", "50"],
   "settings-schema": "org.gnome.shell.extensions.ollama-ram",
-  "gettext-domain": "ollama-ram@tobmanbot"
+  "gettext-domain": "ollama-ram@tobmanbot",
+  "url": "https://github.com/tobmanbot/ollama-ram"
 }
