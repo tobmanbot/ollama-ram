@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.ollama-ram"
+          path="/org/gnome/shell/extensions/ollama-ram/">
+
+    <key name="max-vram-gb" type="d">
+      <default>0.0</default>
+      <summary>Max VRAM (GB)</summary>
+      <description>Maximum VRAM in GB for the bar scale. 0 = auto-detect.</description>
+    </key>
+
+    <key name="max-ram-gb" type="d">
+      <default>0.0</default>
+      <summary>Max RAM (GB)</summary>
+      <description>Maximum system RAM in GB for the bar scale. 0 = auto-detect.</description>
+    </key>
+
+    <key name="update-interval" type="i">
+      <default>8</default>
+      <range min="1" max="60"/>
+      <summary>Update interval (seconds)</summary>
+      <description>How often to poll Ollama and system RAM.</description>
+    </key>
+
+  </schema>
+</schemalist>

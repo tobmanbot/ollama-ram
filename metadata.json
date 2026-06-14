@@ -1,0 +1,9 @@
+{
+  "name": "Ollama RAM",
+  "description": "Shows Ollama VRAM usage and system RAM as panel bars. Hidden when no model is loaded. Bar scale is auto-detected from hardware; can be overridden in Preferences.",
+  "uuid": "ollama-ram@tobmanbot",
+  "version": 1,
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.ollama-ram",
+  "gettext-domain": "ollama-ram@tobmanbot"
+}
